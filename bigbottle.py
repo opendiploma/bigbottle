@@ -1,5 +1,5 @@
 from bottle import route, request
-from bigchaindb import bigchain_client
+import bigchain_client
 import json
 
 
