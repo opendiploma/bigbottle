@@ -1,4 +1,6 @@
 # bigbottle
+
+[![Join the chat at https://gitter.im/opendiploma/bigbottle](https://badges.gitter.im/opendiploma/bigbottle.svg)](https://gitter.im/opendiploma/bigbottle?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Rest api for BigchainDB using BottlePy python framework.
 
 Main motivation is to add possibility to access bigchaindb from any kind of server/client what support http calls.
