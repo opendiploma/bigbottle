@@ -11,13 +11,8 @@ def keys():
 
 @post('/store')
 def store():
-    public_key = request.forms.get('pub', '').strip()
-    if not public_key:
-        public_key = request.GET.get('pub', '').strip()
-
-    asset = request.forms.get('asset', '').strip()
-    if not asset:
-        asset = request.GET.get('asset', '').strip()
+    public_key = get_request_param('pub')
+    asset = get_request_param('asset')
 
     digital_asset_payload = get_asset_payload(asset)
 
@@ -38,5 +33,12 @@ def exists():
 
 def get_asset_payload(asset):
     return {'asset': asset}
+
+
+def get_request_param(param_name):
+    result = request.forms.get(param_name, '').strip()
+    if not result:
+        result = request.GET.get(param_name, '').strip()
+    return result
 
 # run(host='localhost', port=8777, debug=True)
