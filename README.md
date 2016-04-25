@@ -16,7 +16,7 @@ The are 3 methods so far.
 ```text
 GET http://localhost:8777/keys
 ```
-Returns generated private and public keys.
+Returns generated private and public keys. (Warning: temporary method for quick tests. It will be removed in a stable version)
 
 ```text
 POST http://localhost:8777/store
