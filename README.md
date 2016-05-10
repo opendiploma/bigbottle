@@ -28,4 +28,4 @@ GET http://localhost:8777/exists
 ```
 Checks if asset exists in bigchainDB. Takes 1 parameter: `asset` - asset to check.
 
-Bigbottle is in alpha version. I use it for my prototype. So fill free to join and contribute:)
+Bigbottle is in alpha version. I use it for my prototype. So feel free to join and contribute:)
