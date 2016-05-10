@@ -1,3 +1,4 @@
+### Setup
 Run (first time it will start with provisioning):
 ```text
 $ vagrant up
@@ -31,7 +32,7 @@ Usage:
 sudo /etc/init.d/rethinkdb start
 ```
 
-Ports on host machine:
+###Ports on host machine:
 
 8042 - rethinkdb web console
 ```text
